@@ -94,6 +94,17 @@
     z-index: 0;
 }
 
+.double-image {
+    display: flex;
+    padding: 0;
+}
+
+.double-image img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .text-with-image {
     padding: 0;
     display: flex;
