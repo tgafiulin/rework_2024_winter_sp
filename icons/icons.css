@@ -1,11 +1,12 @@
-.icon {
+.icons .icon {
     list-style-type: none; /* Убираем исходные маркеры */
-    background: no-repeat 0 50%; /* Параметры фона */
+    background-repeat: no-repeat ;
+    background-position: 0 50%; /* Параметры фона */
     background-size: 20px;
     padding-left: 35px;
 }
 
-.icon::before {
+.icons .icon::before {
     display: none;
 }
 
